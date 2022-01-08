@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(ASS2)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(app src/main.cpp src/acc.cpp src/funcs.cpp)
+include_directories(includes)
